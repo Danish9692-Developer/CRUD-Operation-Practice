@@ -1,0 +1,46 @@
+.crud-card {
+  max-width: 800px;
+  margin: 24px auto;
+  padding: 16px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.crud-form div {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.crud-form label {
+  width: 80px;
+  font-weight: 600;
+}
+.crud-form input {
+  flex: 1;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-actions {
+  display: flex;
+  gap: 8px;
+}
+.form-actions button {
+  padding: 6px 10px;
+}
+.crud-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+}
+.crud-table th,
+.crud-table td {
+  padding: 8px;
+  border: 1px solid #eee;
+  text-align: left;
+}
+.crud-table button {
+  margin-right: 6px;
+}
